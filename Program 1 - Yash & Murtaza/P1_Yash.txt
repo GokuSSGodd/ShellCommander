@@ -1,0 +1,39 @@
+total 24
+-rw-r--r--. 1 yash yash     0 Feb 10 15:44 dummy1.bak
+-rw-r--r--. 1 yash yash     0 Feb 10 15:44 dummy2.bak
+-rw-r--r--. 1 yash yash     0 Feb 10 15:44 dummy3.bak
+-rw-r--r--. 1 yash yash   998 Feb 10 15:45 main.c
+-rw-r--r--. 1 yash yash     0 Feb 10 15:46 P1_Yash.txt
+-rwxr-xr-x. 1 yash yash 17080 Feb 10 15:46 Yash
+
+--------------------------------------------------
+ command	 ./Yash
+--------------------------------------------------
+ command	 ./Yash
+ switch	o
+ argument Yash
+ argument main.c
+ argument myClass.c
+--------------------------------------------------
+ command	 ./Yash
+ argument w/java
+ argument bash-3.2
+ argument ls
+ switch	l
+--------------------------------------------------
+ command	 ./Yash
+ switch	au
+ switch	verbose
+ argument w/java/
+ argument kira:w/java/
+--------------------------------------------------
+ command	 ./Yash
+ switch	i
+ argument CSCI 6657
+ argument *.html
+--------------------------------------------------
+ command	 ./Yash
+ argument dummy1.bak
+ argument dummy2.bak
+ argument dummy3.bak
+ argument *.log
