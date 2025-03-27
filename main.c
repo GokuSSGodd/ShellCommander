@@ -40,11 +40,3 @@ void usage(){
   printf("Usage: option [-abRou] [-i filename] \n");
   exit(1);
 }
-
-/* 
-Question 5 
-
-e. The output was sent to the file instead of to the console/command line. 
-f. It reads the names of the dummy 1,2, and 3 files individually as an argument. Since there are no log files the argument was *.log. 
-
-*/ 
