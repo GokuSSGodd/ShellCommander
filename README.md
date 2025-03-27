@@ -2,7 +2,7 @@ ShellCommander: Understanding Command Line Operations
 
 Introduction 
 
-ShellCommander is a streamlined C++ application crafted to enhance the learning experience for students and newcomers to systems programming by demonstrating the mechanics of command line argument processing. This educational tool provides a hands-on approach to understanding command line interfaces in Unix-based systems, showcasing real-time parsing, file redirection, and glob patterns. Ideal for those looking to deepen their knowledge of Unix shell operations, ShellCommander offers practical insights and applications that are integral to mastering command line utilities.
+ShellCommander is a streamlined C application crafted to enhance the learning experience for students and newcomers to systems programming by demonstrating the mechanics of command line argument processing. This educational tool provides a hands-on approach to understanding command line interfaces in Unix-based systems, showcasing real-time parsing, file redirection, and glob patterns. Ideal for those looking to deepen their knowledge of Unix shell operations, ShellCommander offers practical insights and applications that are integral to mastering command line utilities.
 
 Features
 
@@ -20,13 +20,13 @@ Features
 
     Educational Tool: Provides a clear view of command line mechanics, aiding in educational efforts for those new to systems programming.
 
-    Portable and Lightweight: Written in C++, making it easily portable across different Unix-like systems.
+    Portable and Lightweight: Written in C, making it easily portable across different Unix-like systems.
 
 Usage
 
-To utilize ShellCommander, compile the source code using a standard C++ compiler with C++11 support. Here’s a typical compile and run scenario:
+To utilize ShellCommander, compile the source code using a standard C compiler with C11 support. Here’s a typical compile and run scenario:
 
-g++ -std=c++11 -Wall -o ShellCommander ShellCommander.cpp
+g++ -std=c11 -Wall -o ShellCommander ShellCommander.cpp
 ./ShellCommander -o example output.txt
 
 Options:
@@ -42,7 +42,7 @@ Installation
 
 ShellCommander requires a Unix-like environment to run. Installation involves compiling the source code:
 
-g++ -std=c++11 -Wall -o ShellCommander ShellCommander.cpp
+g++ -std=c11 -Wall -o ShellCommander ShellCommander.cpp
 
 Ensure you have g++ or an equivalent C++ compiler installed in your system.
 Contributing
