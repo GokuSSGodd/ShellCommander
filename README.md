@@ -26,7 +26,7 @@ Usage
 
 To utilize ShellCommander, compile the source code using a standard C compiler with C11 support. Here’s a typical compile and run scenario:
 
-g++ -std=c11 -Wall -o ShellCommander ShellCommander.cpp
+gcc -std=c11 -Wall -o ShellCommander ShellCommander.c
 ./ShellCommander -o example output.txt
 
 Options:
@@ -42,9 +42,9 @@ Installation
 
 ShellCommander requires a Unix-like environment to run. Installation involves compiling the source code:
 
-g++ -std=c11 -Wall -o ShellCommander ShellCommander.cpp
+gcc -std=c11 -Wall -o ShellCommander ShellCommander.c
 
-Ensure you have g++ or an equivalent C++ compiler installed in your system.
+Ensure you have gcc or an equivalent C compiler installed in your system.
 Contributing
 
 Contributions to ShellCommander are welcome, especially from students and educators who wish to expand the tool's capabilities or educational scope.
