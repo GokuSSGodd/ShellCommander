@@ -1,9 +1,17 @@
-ShellCommander
+ShellCommander: Understanding Command Line Operations
 
-ShellCommander is a streamlined command-line tool developed as a part of the educational initiative for understanding Unix-like system operations. This C++ application captures and elucidates the mechanics of command line argument processing, providing users, especially students and newcomers to systems programming, with a real-time look at how arguments are parsed and handled by shell environments.
-Introduction
+Introduction 
 
-ShellCommander is a concise C++ application designed to teach the intricacies of command line interfaces and argument parsing in Unix-based systems. This tool is tailored for educational purposes, offering hands-on experience with command line operations, including argument parsing, file redirection, and glob patterns. It's an excellent resource for systems programming students or anyone looking to deepen their understanding of Unix shell operations.
+ShellCommander is a streamlined C++ application crafted to enhance the learning experience for students and newcomers to systems programming by demonstrating the mechanics of command line argument processing. This educational tool provides a hands-on approach to understanding command line interfaces in Unix-based systems, showcasing real-time parsing, file redirection, and glob patterns. Ideal for those looking to deepen their knowledge of Unix shell operations, ShellCommander offers practical insights and applications that are integral to mastering command line utilities.
+
+Features
+
+    Argument Parsing: Learn how command line arguments are processed and interpreted in Unix-like systems.
+
+    File Redirection: Gain practical experience with directing output from commands to files, enhancing understanding of Unix stream management.
+
+    Glob Patterns: Explore how wildcards and patterns are used to specify groups of filenames within the command line.
+
 Features
 
     Command Line Parsing: Demonstrates how command line arguments are parsed and processed in a Unix environment.
